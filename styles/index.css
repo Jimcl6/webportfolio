@@ -1,0 +1,76 @@
+.full-name {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: max-content;
+    letter-spacing: 10px;
+}
+
+.job-position {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.skills-title,
+.reactjs-frontend {
+    font-size: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.unordered-list {
+    border-top: 1px solid #696868;
+    border-bottom: 1px solid #696868;
+}
+
+.image-gaming {
+    height: 238px;
+}
+
+.about-profile {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    border-top: 1px solid #696868;
+    padding-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.card-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    border-bottom: 1px solid #696868;
+    padding-bottom: 50px;
+}
+
+.web-api-content,
+.reactjs-content,
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tools-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
+.col-lg-12>i {
+    margin: 10px;
+}
+
+.adjusted-height {
+    height: 250px;
+}
+
+.list-social-media {
+    align-items: center;
+}
