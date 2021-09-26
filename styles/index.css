@@ -33,9 +33,11 @@
 .unordered-list {
     border-top: 1px solid #696868;
     border-bottom: 1px solid #696868;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.unordered-list>li {
+.unordered-list>ul>li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
