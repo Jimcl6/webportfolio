@@ -48,6 +48,14 @@
     padding-bottom: 50px;
 }
 
+.unordered-list>ul>li>p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
 .image-gaming {
     height: 238px;
 }
@@ -90,4 +98,13 @@
 
 .list-social-media {
     align-items: center;
+}
+
+.profile-links {
+    color: #696868;
+    transition: 0.3s
+}
+
+.profile-links:hover {
+    color: #878787;
 }
