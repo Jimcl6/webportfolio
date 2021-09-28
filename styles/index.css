@@ -43,6 +43,10 @@
     margin-bottom: 20px;
 }
 
+.list-unstyled {
+    margin-bottom: 0px;
+}
+
 .unordered-list>ul>li {
     padding-top: 50px;
     padding-bottom: 50px;
