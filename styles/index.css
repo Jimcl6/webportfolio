@@ -18,6 +18,11 @@
     letter-spacing: 10px;
 }
 
+.skills-list {
+    max-width: 100%;
+    width: auto;
+}
+
 .profile-photo {
     height: auto;
     max-height: 350px;
