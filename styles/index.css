@@ -18,6 +18,11 @@
     letter-spacing: 10px;
 }
 
+.profile-photo {
+    height: auto;
+    max-height: 350px;
+}
+
 .job-position {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
