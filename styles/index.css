@@ -9,6 +9,14 @@
     margin: 0;
 }
 
+.container-content {
+    max-width: all;
+}
+
+.container-content>.row{
+    max-width: 1200px;
+}
+
 .full-name {
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
@@ -18,9 +26,18 @@
     letter-spacing: 10px;
 }
 
-.skills-list {
-    max-width: 100%;
-    width: auto;
+.contact-section {
+    width: 100%;
+
+}
+
+.project-links {
+    color: #696868;
+}
+
+.project-links:hover {
+    text-decoration: none;
+    color: #5b5b5b;
 }
 
 .profile-photo {
@@ -46,6 +63,19 @@
     text-transform: uppercase;
 }
 
+.front-end-section, skills {
+    width: 1500px;
+    background-color: black;
+}
+
+.front-end-icons {
+    margin-top: 100px;
+}
+
+.progress-height {
+    height: 5px;
+}
+
 .unordered-list {
     border-top: 1px solid #696868;
     border-bottom: 1px solid #696868;
@@ -57,9 +87,15 @@
     margin-bottom: 0px;
 }
 
+.unordered-list>ul>li>h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;  
+    font-weight: 400;
+    margin-left: 10px;
+}
+
 .unordered-list>ul>li {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 10px;
 }
 
 .unordered-list>ul>li>p {
