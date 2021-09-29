@@ -79,17 +79,34 @@
     font-weight: 600;
     font-size: 30px;
     border-top: 1px solid #696868;
-    padding-top: 50px;
+    padding-top: 20px;
     text-transform: uppercase;
     letter-spacing: 10px;
 }
 
-.card-text-2 {
+.profile-section>p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     text-align: justify;
+}
+
+.projects-header {
     border-bottom: 1px solid #696868;
-    padding-bottom: 50px;
+}
+
+.profile-section {
+    border-bottom: 1px solid #696868;
+    max-height: max-content;
+    height: 280px;
+}
+
+.btn-download>a {
+    color: #696868;
+}
+
+.btn-download>a:hover,
+.btn-download:hover {
+    color: #ffff;
 }
 
 .web-api-content,
