@@ -18,21 +18,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
     <!-- external css -->
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body class="bg-light">
 
+    <!-- header -->
+    <div class="card-body text-center">
+        <h5 class="card-title mx-auto pb-1 full-name"> - Jimcl -
+        </h5>
+    </div>
+    <!-- end of header -->
 
     <!-- jumbotron intro -->
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <div class="jumbotron background-image text-light rounded-0">
+        <h1 class="display-2 border-bottom">Hi, I'm Jed</h1>
+        <h2 class="job-position">FULL-STACK DEVELOPER</h2>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-secondary btn-lg" href="#about-profile" role="button">Learn more</a>
         </p>
     </div>
     <!-- end of jumbotron -->
@@ -46,10 +60,7 @@
                         alt="profile-photo" style="height: max-content; max-height: fit-content;">
                 </div> -->
                 <div class="col-md-12 ">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mx-auto pb-1 full-name"> - Jimcl -
-                        </h5>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -57,22 +68,26 @@
 
             <!-- about -->
             <div class="row mx-auto">
-                <div class="col-md-4">
-                    <img src="./images/profile-image.jpg" alt="" class="img-fluid ml-5min-vw-25 ml-5 rounded-circle m-3 profile-photo shadow-lg" alt="profile-photo">
+                <div class="col-md-4" id="about-profile">
+                    <img src="./images/profile-image.jpg" alt="" class="img-fluid ml-5min-vw-25 ml-5 rounded-circle m-3 profile-photo shadow-lg" alt="profile-photo" data-aos="fade-up">
                 </div>
                 <div class="col-md-8 profile-section mt-4">
-                    <h5 class="about-profile text-center"> - About Me - </h5>
-                    <h6 class="job-position text-center">Full-stack Developer</h6>
+                    <h5 class="about-profile text-center"> - About
+                        <p class="d-inline blue-color">ME</p> -
+                    </h5>
+                    <!-- <h6 class="job-position text-center">Full-stack Developer</h6> -->
                     <p class="card-text text-justify align-middle card-text-2">Hi, name's Jed Ian Michael C. Llorente(henceforth the title of my portfolio, JIMCL.) I'm an aspiring web developer, IT Speciallist(currently) let's get to coding!</p>
                     <a href="./documents/JED_LLORENTE_NEW-RESUME.docx"><button type="button"
                             class=" btn btn-outline-secondary ">Download CV</button></a>
                 </div>
             </div>
             <!-- end of about -->
+            <hr>
             <!-- front-end skills -->
+            <h5 class="text-center skills-title">- Skills -</h5>
             <div class="row mx-auto">
-                <div class="col-md-6 col-12 py-3 skills-list">
-                    <h5 class="text-center pb-2 skills-title"> - Front-end Skills - </h5>
+                <div class="col-md-6 py-3 skills-list">
+                    <h5 class="text-center pb-2 skills-title"> - Front-end - </h5>
                     <div class="unordered-list py-3">
                         <ul class="list-unstyled d-inline py-4">
                             <li>
@@ -90,7 +105,7 @@
                             <li>
                                 <h3 class="d-inline">Bootstrap</h3>
                                 <div class="progress progress-height">
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar blue-color" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>
@@ -102,16 +117,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6">
                     <div class="container front-end-icons">
                         <div class="row front-end-icons justify-content-around ">
                             <div class="col-md-2 col-12 ">
                                 <i class="fab fa-html5 fa-5x"></i>
                             </div>
-                            <div class="col-md-2 col-12">
+                            <div class="col-md-2 col-12 blue-color">
                                 <i class="fab fa-css3-alt fa-5x"></i>
                             </div>
-                            <div class="col-md-2 col-12">
+                            <div class="col-md-2 col-12 ">
                                 <i class="fab fa-js-square fa-5x"></i>
                             </div>
                             <div class="col-md-2 col-12">
@@ -125,45 +140,51 @@
 
             <!-- Back-end skills -->
             <div class="row mx-auto">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6">
                     <div class="container front-end-icons skills-list">
                         <div class="row front-end-icons justify-content-between ">
+                            <div class="col-md-2 col-12">
+                                <i class="fas fa-database fa-5x"></i>
+                            </div>
+                            <div class="col-md-2 col-12">
+                                <i class="fab fa-js-square fa-5x"></i>
+                            </div>
+                            <div class="col-md-2 col-12 blue-color">
+                                <i class="fab fa-react fa-5x"></i>
+                            </div>
                             <div class="col-md-2 col-12 ">
                                 <i class="fab fa-node fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12">
-                                <i class="fab fa-github-square fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12">
-                                <i class="fab fa-gitlab fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12">
-                                <i class="fas fa-server fa-5x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 py-5">
-                    <h5 class="text-center reactjs-frontend more-aboutme-title text-uppercase mb-4"> - Back-end Skill -
+                <div class="col-md-6 col-12 ">
+                    <h5 class="text-center reactjs-frontend more-aboutme-title text-uppercase mb-4"> - Back-end -
                     </h5>
                     <div class="unordered-list py-3">
                         <ul class="list-unstyled d-inline py-4">
                             <li>
-                                <h3 class="d-inline align-baseline">Node.js</h3>
+                                <h3 class="d-inline align-baseline">MongoDB</h3>
                                 <div class="progress progress-height">
                                     <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>
-                                <h3 class="d-inline">Github</h3>
+                                <h3 class="d-inline align-baseline">Express.js</h3>
                                 <div class="progress progress-height">
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar blue-color" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>
-                                <h3 class="d-inline">Gitlab</h3>
+                                <h3 class="d-inline align-baseline">React</h3>
                                 <div class="progress progress-height">
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="d-inline align-baseline">Node.js</h3>
+                                <div class="progress progress-height">
+                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                         </ul>
@@ -173,9 +194,32 @@
             </div>
             <!-- end of end of Back-end skills -->
 
-            <!-- projects carousel -->
-            <div class="row mt-3 project-section mx-auto">
+            <!-- tools section-->
+            <div class="row mt-3 project-section mx-auto bg-white shadow-sm">
                 <div class="projects-title bg-light mx-auto rounded-top bordershadow-lg">
+                    <h5 class="text-center py-2 skills-title">- Tools -</h5>
+
+                    <div class="row mx-auto d-flex flex-row justify-content-around">
+                        <div class="col-md-2 col-12 ">
+                            <i class="fab fa-github-square fa-5x"></i>
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <i class="fab fa-gitlab fa-5x"></i>
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <img src="https://external-preview.redd.it/WSuAcyz1u8MoF8cokXspkmOIn8oWXaE8JH-SGXbUUW0.png?auto=webp&s=a6abc62ecb4a08f2bf2f287b79c9bd93006791d1" alt="" class="img-fluid h-50">
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <i class="fab fa-bootstrap fa-5x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of tools section -->
+            <hr>
+            <!-- projects section -->
+            <div class="row mt-3 project-section mx-auto ">
+                <div class="projects-title bg-light mx-auto rounded-top ">
                     <h5 class="text-center py-2 skills-title">- Projects -</h5>
 
                     <div class="row mx-auto d-flex flex-row justify-content-around">
@@ -194,7 +238,8 @@
                 </div>
             </div>
         </div>
-        <!-- end of projects carousel -->
+        <!-- end of projects section -->
+        <hr>
         <div class="row contact-section m-0">
             <!-- contact info and social media platforms -->
             <div class="card my-3 shadow w-100 rounded-0">
@@ -241,8 +286,16 @@
         </div>
     </div>
     <footer class=" border-top ">
-        <p class=" text-center pt-2 ">©2021 | J.I.M.C.L</p>
+        <p class=" text-center pt-2 ">©2021 | J.I.M.C.L All Rights Reserved.</p>
     </footer>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
