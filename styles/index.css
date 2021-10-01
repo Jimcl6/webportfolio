@@ -85,6 +85,10 @@
     text-transform: uppercase;
 }
 
+#front-end {
+    max-height: 500px;
+}
+
 .front-end-section,
 skills {
     width: 1500px;
@@ -92,7 +96,7 @@ skills {
 }
 
 .front-end-icons {
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 .progress-height {
@@ -134,7 +138,7 @@ skills {
 }
 
 .background-blue {
-    background-color: #0076BF!important;
+    background-color: #0076bf49!important;
 }
 
 .about-profile {

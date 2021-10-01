@@ -18,16 +18,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
     <!-- external css -->
     <link rel="stylesheet" href="./styles/index.css">
 </head>
@@ -52,43 +42,37 @@
     <!-- end of jumbotron -->
 
     <!-- profile of jed -->
-    <div class="justify-content-center text-dark profile-container bg-light">
-        <div class="card mb-3 mx-auto w-100 text-muted bg-light border-0">
-            <div class="row no-gutters">
-                <!-- <div class="col-md-4">
-                    <img  class="img-fluid ml-5min-vw-25  rounded-circle m-3 shadow"
-                        alt="profile-photo" style="height: max-content; max-height: fit-content;">
-                </div> -->
-                <div class="col-md-12 ">
-
+    <section class="about">
+        <div class="justify-content-center text-dark profile-container bg-light">
+            <div class="container-content text-muted p-0">
+                <!-- about -->
+                <div class="row mx-auto">
+                    <div class="col-md-4" id="about-profile">
+                        <img src="./images/profile-image.jpg" alt="" class="img-fluid ml-5min-vw-25 ml-5 rounded-circle m-3 profile-photo shadow-lg" alt="profile-photo">
+                    </div>
+                    <div class="col-md-8 profile-section mt-4">
+                        <h5 class="about-profile text-center"> - About
+                            <p class="d-inline blue-color">ME</p> -
+                        </h5>
+                        <!-- <h6 class="job-position text-center">Full-stack Developer</h6> -->
+                        <p class="card-text text-justify align-middle card-text-2">Hi, name's Jed Ian Michael C. Llorente(henceforth the title of my portfolio, JIMCL.) I'm an aspiring web developer, IT Specialist(currently) let's get to coding!</p>
+                        <a href="./documents/JED_LLORENTE_NEW-RESUME.docx"><button type="button"
+                                class=" btn btn-outline-secondary ">Download CV</button></a>
+                    </div>
                 </div>
+                <!-- end of about -->
             </div>
         </div>
-        <div class="container-content text-muted p-0">
+    </section>
 
-            <!-- about -->
-            <div class="row mx-auto">
-                <div class="col-md-4" id="about-profile">
-                    <img src="./images/profile-image.jpg" alt="" class="img-fluid ml-5min-vw-25 ml-5 rounded-circle m-3 profile-photo shadow-lg" alt="profile-photo" data-aos="fade-up">
-                </div>
-                <div class="col-md-8 profile-section mt-4">
-                    <h5 class="about-profile text-center"> - About
-                        <p class="d-inline blue-color">ME</p> -
-                    </h5>
-                    <!-- <h6 class="job-position text-center">Full-stack Developer</h6> -->
-                    <p class="card-text text-justify align-middle card-text-2">Hi, name's Jed Ian Michael C. Llorente(henceforth the title of my portfolio, JIMCL.) I'm an aspiring web developer, IT Specialist(currently) let's get to coding!</p>
-                    <a href="./documents/JED_LLORENTE_NEW-RESUME.docx"><button type="button"
-                            class=" btn btn-outline-secondary ">Download CV</button></a>
-                </div>
-            </div>
-            <!-- end of about -->
-            <hr>
-            <!-- front-end skills -->
-            <h5 class="text-center skills-title">- Skills -</h5>
-            <div class="row mx-auto">
-                <div class="col-md-6 py-3 skills-list">
+    <section class="mt-4 front-end bg-white text-secondary" id="front-end">
+        <!-- front-end skills -->
+        <h5 class="text-center skills-title">- Skills -</h5>
+        <div class="container mx-auto d-flex justify-content-center ">
+            <div class="col-md-6 py-3 skills-list">
+                <div class="container">
                     <h5 class="text-center pb-2 skills-title"> - Front-end - </h5>
-                    <div class="unordered-list py-3">
+                    <div class="unordered-list py-3 ">
                         <ul class="list-unstyled d-inline py-4">
                             <li>
                                 <h3 class="d-inline align-baseline">HTML 5</h3>
@@ -117,97 +101,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="container front-end-icons">
-                        <div class="row front-end-icons justify-content-around ">
-                            <div class="col-md-2 col-12 ">
-                                <i class="fab fa-html5 fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12 blue-color">
-                                <i class="fab fa-css3-alt fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12 ">
-                                <i class="fab fa-js-square fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12">
-                                <i class="fab fa-bootstrap fa-5x"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <!-- end of front-end skills -->
-
-            <!-- Back-end skills -->
-            <div class="row mx-auto">
-                <div class="col-md-6">
-                    <div class="container front-end-icons skills-list">
-                        <div class="row front-end-icons justify-content-between ">
-                            <div class="col-md-2 col-12">
-                                <i class="fas fa-database fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12">
-                                <i class="fab fa-js-square fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12 blue-color">
-                                <i class="fab fa-react fa-5x"></i>
-                            </div>
-                            <div class="col-md-2 col-12 ">
-                                <i class="fab fa-node fa-5x"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 ">
-                    <h5 class="text-center reactjs-frontend more-aboutme-title text-uppercase mb-4"> - Back-end -
-                    </h5>
-                    <div class="unordered-list py-3">
-                        <ul class="list-unstyled d-inline py-4">
-                            <li>
-                                <h3 class="d-inline align-baseline">MongoDB</h3>
-                                <div class="progress progress-height">
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <h3 class="d-inline align-baseline">Express.js</h3>
-                                <div class="progress progress-height">
-                                    <div class="progress-bar blue-color" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <h3 class="d-inline align-baseline">React</h3>
-                                <div class="progress progress-height">
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <h3 class="d-inline align-baseline">Node.js</h3>
-                                <div class="progress progress-height">
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <!-- end of end of Back-end skills -->
-
-            <!-- tools section-->
-            <div class="row mt-3 project-section mx-auto bg-white shadow-sm">
-                <div class="projects-title bg-light mx-auto rounded-top bordershadow-lg">
-                    <h5 class="text-center py-2 skills-title">- Tools -</h5>
-
-                    <div class="row mx-auto d-flex flex-row justify-content-around">
+            <div class="col-md-6">
+                <div class="container front-end-icons ">
+                    <div class="row d-inline-flex flex-row front-end-icons justify-content-around my-auto">
                         <div class="col-md-2 col-12 ">
-                            <i class="fab fa-github-square fa-5x"></i>
+                            <i class="fab fa-html5 fa-5x"></i>
                         </div>
-                        <div class="col-md-2 col-12">
-                            <i class="fab fa-gitlab fa-5x"></i>
+                        <div class="col-md-2 col-12 blue-color">
+                            <i class="fab fa-css3-alt fa-5x"></i>
                         </div>
-                        <div class="col-md-2 col-12">
-                            <img src="https://external-preview.redd.it/WSuAcyz1u8MoF8cokXspkmOIn8oWXaE8JH-SGXbUUW0.png?auto=webp&s=a6abc62ecb4a08f2bf2f287b79c9bd93006791d1" alt="" class="img-fluid h-50">
+                        <div class="col-md-2 col-12 ">
+                            <i class="fab fa-js-square fa-5x"></i>
                         </div>
                         <div class="col-md-2 col-12">
                             <i class="fab fa-bootstrap fa-5x"></i>
@@ -215,76 +120,158 @@
                     </div>
                 </div>
             </div>
-            <!-- end of tools section -->
-            <hr>
-            <!-- projects section -->
-            <div class="row mt-3 project-section mx-auto ">
-                <div class="projects-title bg-light mx-auto rounded-top ">
-                    <h5 class="text-center py-2 skills-title">- Projects -</h5>
-
-                    <div class="row mx-auto d-flex flex-row justify-content-around">
-                        <div class="col-md-6 col-lg-4">
-                            <img src="./images/medicio.PNG" alt="medicio-project" class="img-fluid p-2 bg-white border rounded">
-                            <h4>Medical Page</h4>
-                            <p><a href="#" class="project-links">Check it out!</a></p>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <img src="./images/medilab.PNG" alt="medicio-project" class="img-fluid p-2 border bg-white rounded">
-                            <h4>Medical Page</h4>
-                            <p><a href="#" class="project-links">Check it out!</a></p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- end of projects section -->
-        <hr>
-        <div class="row contact-section m-0">
-            <!-- contact info and social media platforms -->
-            <div class="card my-3 shadow w-100 rounded-0">
-                <div class="row no-gutters">
-                    <div class="col-md-6">
-                        <div class="card-body h-100">
-                            <h5 class="card-title ">Contact Information</h5>
-                            <ul class="list-unstyled text-left mx-5 my-5 ">
-                                <li><i class="fas fa-at "></i> Email Address: jedllorente@gmail.com</li>
-                                <li><i class="fas fa-phone "></i> Phone Number: +63-997-603-7125</li>
-                            </ul>
-                            <ul class=" d-flex flex-row list-unstyled justify-content-around mx-5 ">
-                                <li><a href="https://www.facebook.com/ian.michael3/" class="profile-links"><i
-                                            class="fab fa-facebook-square fa-4x"></i></a>
-                                </li>
-                                <li><a class=" profile-links " href=" https://www.instagram.com/jedllorente/ "><i
-                                            class=" fab fa-instagram-square fa-4x "></i></a></li>
-                                <li><a class=" profile-links " href="https://www.linkedin.com/in/jed-ian-michael-llorente-9076a513a/"><i
-                                            class=" fab fa-linkedin fa-4x "></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h5 class=" card-title ">Contact Me</h5>
-                            <form action=" ">
+        <!-- end of front end -->
+    </section>
 
-                                <input class="form-control my-2" type="text" placeholder="Enter your name here">
-                                <input class="form-control my-2" type="text" placeholder="name@example.com">
-                                <input class="form-control my-2" type="text" placeholder="eg. 0912-345-6789">
-                                <select id="exampleFormControlTextarea1" class="form-control my-2">
-                                    <option value=" " disabled selected>Concerns:</option>
-                                    <option value=" ">Quotation</option>
-                                    <option value=" ">Inquiries</option>
-                                    <option value=" ">Complaints</option>
-                                </select>
-                                <button type="button" class="btn btn-outline-primary">Submit</button>
-                            </form>
+    <!-- back-end -->
+    <section class="back-end bg-white text-secondary" id="back-end">
+        <div class="container d-flex justify-content-around">
+            <div class="col-md-6 ">
+                <div class="container front-end-icons skills-list">
+                    <div class="rowrow d-inline-flex flex-row front-end-icons justify-content-around my-auto">
+                        <div class="col-md-2 col-12">
+                            <i class="fas fa-database fa-5x"></i>
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <i class="fab fa-js-square fa-5x"></i>
+                        </div>
+                        <div class="col-md-2 col-12 blue-color">
+                            <i class="fab fa-react fa-5x"></i>
+                        </div>
+                        <div class="col-md-2 col-12 ">
+                            <i class="fab fa-node fa-5x"></i>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- end of contact info -->
+            <div class="col-md-6 col-12 ">
+                <h5 class="text-center reactjs-frontend more-aboutme-title text-uppercase mb-4"> - Back-end -
+                </h5>
+                <div class="unordered-list py-3">
+                    <ul class="list-unstyled d-inline py-4">
+                        <li>
+                            <h3 class="d-inline align-baseline">MongoDB</h3>
+                            <div class="progress progress-height">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="d-inline align-baseline">Express.js</h3>
+                            <div class="progress progress-height">
+                                <div class="progress-bar blue-color" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="d-inline align-baseline">React</h3>
+                            <div class="progress progress-height">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="d-inline align-baseline">Node.js</h3>
+                            <div class="progress progress-height">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- end of backend -->
+
+    <!-- tools section -->
+    <section class="tools bg-light" id="tools-section">
+        <div class="projects-title text-secondary mx-auto rounded-top bordershadow-lg">
+            <h5 class="text-center py-2 skills-title">- Tools -</h5>
+
+            <div class="row mt-5 mx-auto d-flex flex-row justify-content-around">
+                <div class="col-md-2 col-12 ">
+                    <i class="fab fa-github-square fa-6x"></i>
+                </div>
+                <div class="col-md-2 col-12">
+                    <i class="fab fa-gitlab fa-6x"></i>
+                </div>
+                <div class="col-md-2 col-12">
+                    <img src="https://external-preview.redd.it/WSuAcyz1u8MoF8cokXspkmOIn8oWXaE8JH-SGXbUUW0.png?auto=webp&s=a6abc62ecb4a08f2bf2f287b79c9bd93006791d1" alt="" class="img-fluid h-50">
+                </div>
+                <div class="col-md-2 col-12">
+                    <i class="fab fa-bootstrap fa-6x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of tools section -->
+
+    <!-- projects section -->
+    <section class="projects text-muted" id="projects-section">
+        <div class="projects-title bg-light mx-auto rounded-top ">
+            <h5 class="text-center py-2 skills-title">- Projects -</h5>
+            <div class="row mx-auto d-flex flex-row justify-content-around">
+                <div class="col-md-6 col-lg-4">
+                    <img src="./images/medicio.PNG" alt="medicio-project" class="img-fluid p-2 bg-white border rounded">
+                    <h4>Medical Page</h4>
+                    <p><a href="#" class="project-links">Check it out!</a></p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="./images/medilab.PNG" alt="medicio-project" class="img-fluid p-2 border bg-white rounded">
+                    <h4>Medical Page</h4>
+                    <p><a href="#" class="project-links">Check it out!</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of projects section -->
+
+    <!-- contact info section -->
+    <section class="contact" id="contact-info-section">
+        <div class="card my-3 shadow w-100 rounded-0">
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <div class="card-body h-100">
+                        <h5 class="card-title ">Contact Information</h5>
+                        <ul class="list-unstyled text-left mx-5 my-5 ">
+                            <li><i class="fas fa-at "></i> Email Address: jedllorente@gmail.com</li>
+                            <li><i class="fas fa-phone "></i> Phone Number: +63-997-603-7125</li>
+                        </ul>
+                        <ul class=" d-flex flex-row list-unstyled justify-content-around mx-5 ">
+                            <li><a href="https://www.facebook.com/ian.michael3/" class="profile-links"><i
+                                        class="fab fa-facebook-square fa-4x"></i></a>
+                            </li>
+                            <li><a class=" profile-links " href=" https://www.instagram.com/jedllorente/ "><i
+                                        class=" fab fa-instagram-square fa-4x "></i></a></li>
+                            <li><a class=" profile-links " href="https://www.linkedin.com/in/jed-ian-michael-llorente-9076a513a/"><i
+                                        class=" fab fa-linkedin fa-4x "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class=" card-title ">Contact Me</h5>
+                        <form action=" ">
+
+                            <input class="form-control my-2" type="text" placeholder="Enter your name here">
+                            <input class="form-control my-2" type="text" placeholder="name@example.com">
+                            <input class="form-control my-2" type="text" placeholder="eg. 0912-345-6789">
+                            <select id="exampleFormControlTextarea1" class="form-control my-2">
+                                <option value=" " disabled selected>Concerns:</option>
+                                <option value=" ">Quotation</option>
+                                <option value=" ">Inquiries</option>
+                                <option value=" ">Complaints</option>
+                            </select>
+                            <button type="button" class="btn btn-outline-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact info -->
+
+
+
+
     <footer class=" border-top ">
         <p class=" text-center pt-2 ">©2021 | J.I.M.C.L All Rights Reserved.</p>
     </footer>
