@@ -213,5 +213,6 @@ skills {
 }
 
 .card-title {
-    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
