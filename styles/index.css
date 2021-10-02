@@ -10,9 +10,26 @@
 }
 
 .jumbotron {
-    height: 43.75rem;
+    height: 500px;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.card-container {
+    max-height: max-content;
+    max-width: max-content;
+    width: 75%;
+}
+
+.card-container-front-end {
+    max-height: max-content;
+    max-width: max-content;
+    width: 75%;
+}
+
+#about-description {
+    max-height: max-content;
+    height: auto;
 }
 
 .display-2 {
@@ -25,6 +42,8 @@
 .background-image {
     background-image: url('https://wallpaperaccess.com/full/279547.jpg');
     background-size: cover;
+    max-height: 500px;
+    height: 100%;
 }
 
 .container-content {
@@ -95,6 +114,10 @@
     max-height: 500px;
 }
 
+.front-desc {
+    margin-top: 40px;
+}
+
 .front-end-icons {
     margin-top: 60px;
     max-height: max-content;
@@ -145,7 +168,6 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
-    border-top: 1px solid #696868;
     padding-top: 20px;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -162,6 +184,7 @@
 }
 
 .profile-section {
+    border-top: 1px solid #696868;
     border-bottom: 1px solid #696868;
     max-height: max-content;
     height: 280px;
