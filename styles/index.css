@@ -32,6 +32,11 @@
     height: auto;
 }
 
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
 .display-2 {
     max-width: max-content;
     padding-bottom: 20px;
