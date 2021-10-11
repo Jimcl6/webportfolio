@@ -22,6 +22,10 @@
 }
 
 .card-container-front-end {
+    margin: 0;
+}
+
+.card-container-front-end {
     max-height: max-content;
     max-width: max-content;
     width: 75%;
@@ -247,4 +251,12 @@
 
 .text-bootstrap {
     color: #7952B3;
+}
+
+.img-height {
+    height: 100px;
+}
+
+#tools-section {
+    height: 250px;
 }
