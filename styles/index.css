@@ -10,9 +10,14 @@
 }
 
 .jumbotron {
-    height: 500px;
+    height: 600px;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.jumbotron>h1,
+.job-position {
+    padding-top: 80px;
 }
 
 .card-container {
@@ -51,8 +56,6 @@
 .background-image {
     background-image: url('https://wallpaperaccess.com/full/279547.jpg');
     background-size: cover;
-    max-height: 500px;
-    height: 100%;
 }
 
 .container-content {
@@ -259,4 +262,10 @@
 
 #tools-section {
     height: 250px;
+}
+
+#freelance-section {
+    background-color: #6C757D;
+    max-height: 1000px;
+    height: max-content;
 }
