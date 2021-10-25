@@ -9,21 +9,25 @@
     margin: 0;
 }
 
+section {
+    display: block;
+}
+
 .jumbotron {
-    height: 600px;
+    height: 800px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .jumbotron>h1,
 .job-position {
-    padding-top: 80px;
+    padding-top: 200px;
 }
 
 .card-container {
     max-height: max-content;
     max-width: max-content;
-    width: 75%;
+    width: 100%;
 }
 
 .card-container-front-end {
@@ -261,11 +265,11 @@
 }
 
 #tools-section {
-    height: 250px;
+    height: max-content;
 }
 
 #freelance-section {
     background-color: #6C757D;
     max-height: 1000px;
-    height: max-content;
+    height: 100%;
 }
